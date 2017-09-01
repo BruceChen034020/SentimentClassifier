@@ -1,6 +1,7 @@
 /*
 Your girlfriend does all of the works for you
 女朋友就是工具人(O)
+版本: 1.0.0.0
 */
 function writeText(object, string){
     object.innerHTML += string;
@@ -44,18 +45,18 @@ function girlfriend(){
                 res[i] = res2[0];
                 res.push(res2[1]);
             }
-            if(res[i].includes(",")){
+            if(res[i].includes(",") && res[i].length > 1){
                 res2 = res[i].split(',');
                 res[i] = res2[0];
                 res.push(res2[1]);
             }
         }
         for(var i=0; i<res.length; i++){
-            if(res[i].includes("[")){
+            if(res[i].includes("[") && res[i].length > 1){
                 res.push("[");
                 res[i] = res[i].slice(1);
             }
-            if(res[i].includes("]")){
+            if(res[i].includes("]") && res[i].length > 1){
                 res.push("]");
                 res[i] = res[i].slice(0, -1);
             }
