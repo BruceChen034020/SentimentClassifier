@@ -26,7 +26,7 @@ function isIn(object, list){
 function girlfriend(){
     this.word_tokenize = function(str){
         var res = str.split(" ");
-        punctuation = [',', '.', '?'];
+        punctuation = [',', '.', '?', '!'];
         for(var i=0; i<res.length; i++){
             if(isIn(res[i].slice(-1), punctuation) && res[i].length > 1){
                 res.push(res[i].slice(-1));
