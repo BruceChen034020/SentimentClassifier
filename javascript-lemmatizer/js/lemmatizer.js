@@ -16,20 +16,20 @@ if (typeof String.endsWith !== "function") {
 var Lemmatizer = function() {
   this.wn_files = {
     noun: [
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/index.noun.json',
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/noun.exc.json'
+      'script-lemmatizer/dict/index.noun.json',
+      'javascript-lemmatizer/dict/noun.exc.json'
     ],
     verb: [
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/index.verb.json',
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/verb.exc.json'
+      'javascript-lemmatizer/dict/index.verb.json',
+      'javascript-lemmatizer/dict/verb.exc.json'
     ],
     adj:  [
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/index.adj.json',
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/adj.exc.json'
+      'javascript-lemmatizer/dict/index.adj.json',
+      'javascript-lemmatizer/dict/adj.exc.json'
     ],
     adv:  [
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/index.adv.json',
-      'https://takafumir.github.io/SentimentClassifier/javascript-lemmatizer/dict/adv.exc.json'
+      'javascript-lemmatizer/dict/index.adv.json',
+      'javascript-lemmatizer/dict/adv.exc.json'
     ]
   };
 
