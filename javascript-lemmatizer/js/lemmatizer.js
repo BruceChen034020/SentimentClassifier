@@ -16,7 +16,7 @@ if (typeof String.endsWith !== "function") {
 var Lemmatizer = function() {
   this.wn_files = {
     noun: [
-      'script-lemmatizer/dict/index.noun.json',
+      'javascript-lemmatizer/dict/index.noun.json',
       'javascript-lemmatizer/dict/noun.exc.json'
     ],
     verb: [
